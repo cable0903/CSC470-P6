@@ -61,6 +61,8 @@
   <ItemGroup>
     <Compile Include="AppUser.cs" />
     <Compile Include="FakeAppUserRepository.cs" />
+    <Compile Include="FakeIssueRepository.cs" />
+    <Compile Include="FakeIssueStatusRepository.cs" />
     <Compile Include="FakePreferenceRepository.cs" />
     <Compile Include="FakeProjectRepository.cs" />
     <Compile Include="FormDashboardIssue.cs">
@@ -76,6 +78,8 @@
       <DependentUpon>FormRecordIssue.cs</DependentUpon>
     </Compile>
     <Compile Include="IAppUserRepository.cs" />
+    <Compile Include="IIssueRepository.cs" />
+    <Compile Include="IIssueStatusRepository.cs" />
     <Compile Include="IPreferenceRepository.cs" />
     <Compile Include="IProjectRepository.cs" />
     <Compile Include="FormLogin.cs">
@@ -96,6 +100,8 @@
     <Compile Include="FormModifyProject.Designer.cs">
       <DependentUpon>FormModifyProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="Issue.cs" />
+    <Compile Include="IssueStatus.cs" />
     <Compile Include="Preference.cs" />
     <Compile Include="FormCreateProject.cs">
       <SubType>Form</SubType>
