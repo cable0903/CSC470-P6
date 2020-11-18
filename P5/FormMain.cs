@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using Builder;
+using System.Windows.Forms;
 
 namespace P6
 {
@@ -84,6 +85,35 @@ namespace P6
             FormRemoveProject form = new FormRemoveProject(_CurrentAppUser);
             form.ShowDialog();
             form.Dispose();
+        }
+
+        private void issuesDashboardToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            FormDashboardIssue form = new FormDashboardIssue();
+            form.ShowDialog();
+            form.Dispose();
+        }
+
+        private void issuesRecordToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+            FormRecordIssue form = new FormRecordIssue();
+            form.ShowDialog();
+            form.Dispose();
+        }
+
+        private void issuesModifyToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void issuesRemoveToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void issuesReportToolStripMenuItem_Click(object sender, System.EventArgs e)
+        {
+
         }
     }
 }

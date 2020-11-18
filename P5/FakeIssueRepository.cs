@@ -27,20 +27,44 @@ namespace Builder
             return true;
         }
 
-        public string Add(Issue issue);
+        public string Add(Issue issue)
+        {
+            initializeComponent();
+        }
 
-        List<Issue> GetAll(int ProjectId)
+        public List<Issue> GetAll(int ProjectId)
+        {
+            return _ProjectId;
+        }
 
-        public bool Remove(Issue issue);
+        public bool Remove(Issue issue)
+        {
 
-        public string Modify(Issue issue);
+        }
 
-        public int NumberOfIssues(int ProjectId);
+        public string Modify(Issue issue)
+        {
 
-        List<string> GetIssuesByMonth(int ProjectId);
+        }
 
-        List<string> GetIssuesByDiscoverer(int ProjectId);
+        public int NumberOfIssues(int ProjectId)
+        {
 
-        public Issue GetIssueById(int Id);
+        }
+
+        public List<string> GetIssuesByMonth(int ProjectId)
+        {
+
+        }
+
+        public List<string> GetIssuesByDiscoverer(int ProjectId)
+        {
+
+        }
+
+        public Issue GetIssueById(int Id)
+        {
+
+        }
     }
 }

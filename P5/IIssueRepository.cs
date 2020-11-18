@@ -10,18 +10,39 @@ namespace Builder
     {
         public string Add(Issue issue);
 
-        List<Issue> GetAll(int ProjectId)
+        public List<Issue> GetAll(int ProjectId)
+        {
 
-        public bool Remove(Issue issue);
+        }
 
-        public string Modify(Issue issue);
+        public bool Remove(Issue issue)
+        {
+            
+        }
 
-        public int NumberOfIssues(int ProjectId);
+        public string Modify(Issue issue)
+        {
+            
+        }
 
-        List<string> GetIssuesByMonth(int ProjectId);
+        public int NumberOfIssues(int ProjectId)
+        {
 
-        List<string> GetIssuesByDiscoverer(int ProjectId);
+        }
 
-        public Issue GetIssueById(int Id);
+        public List<string> GetIssuesByMonth(int ProjectId)
+        {
+
+        }
+
+        public List<string> GetIssuesByDiscoverer(int ProjectId)
+        {
+
+        }
+
+        public Issue GetIssueById(int Id)
+        {
+
+        }
     }
 }
